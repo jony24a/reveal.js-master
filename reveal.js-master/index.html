@@ -1,0 +1,293 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/black.css">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+
+
+				<section>
+					<a href="https://developer.mozilla.org/es/docs/Web/JavaScript">
+						<img src="img/javascrpit.jpg">
+					</a>
+					<h2>Jonatan Andres Novoa Rodriguez</h2>
+					<p>Ing de Software</p>
+
+				</section>
+
+	
+				<section>
+					<section>
+						<h2 style="background-color: #721aff;">Archivo de planos JavaScript</h2>
+	
+					</section>
+
+					<section>
+						<p>En el contexto de la programación, los "archivos planos" en JavaScript se refieren a archivos de texto simples que contienen código JavaScript, sin ningún formato especial. Estos archivos planos generalmente tienen la extensión ".js" y se utilizan para almacenar y organizar el código JavaScript que se utilizará en una aplicación o sitio web.</p>
+					</section>
+
+					<section>
+						<P>Los archivos planos de JavaScript se pueden crear y editar con cualquier editor de texto simple, como el Bloc de notas en Windows o TextEdit en Mac. Una vez que se ha escrito el código JavaScript en el archivo plano, se puede llamar a este archivo desde otros archivos HTML o JavaScript utilizando la etiqueta "script" en HTML o la función "require" en Node.js.</P>
+					</section>
+
+					<section>
+						<p>Los archivos planos de JavaScript son una forma común de organizar y reutilizar el código en una aplicación o sitio web, ya que permiten separar el código JavaScript del código HTML y CSS. Además, los archivos planos pueden ser versionados y controlados con herramientas de control de versiones como Git, lo que facilita la colaboración en el desarrollo de software.</p>
+					</section>
+
+					<section data-auto-animate>
+						<h2 data-id="code-title">Codigo de Archivo de planos JavaScript</h2>
+						<pre data-id="code-animation"><code class="hljs javascript" data-trim data-line-numbers>
+							var xhttp = new XMLHttpRequest();
+						xhttp.onreadystatechange = function() {
+ 							if (this.readyState == 4 && this.status == 200) {
+   								// Acceder al contenido del archivo
+    							console.log(this.responseText);
+ 							}
+						};
+						xhttp.open("GET", "archivo.txt", true);
+						xhttp.send();
+						</code></pre>	
+					</section>
+				</section>
+
+		
+				<section>
+					<section data-auto-animate data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)">
+					<h2>Archivos de XML en JavaScript</h2>
+					<div class="r-hstack justify-center">
+						<div data-id="box1" style="background: #1eff01; width: 50px; height: 50px; margin: 10px; border-radius: 5px;"></div>
+						<div data-id="box2" style="background: #721aff; width: 50px; height: 50px; margin: 10px; border-radius: 5px;"></div>
+						<div data-id="box3" style="background: #1eff01; width: 50px; height: 50px; margin: 10px; border-radius: 5px;"></div>
+					</div>
+				</section>
+				<section data-auto-animate data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)">
+					<div class="r-hstack justify-center">
+						<div data-id="box1" data-auto-animate-delay="0" style="background: #721aff;; width: 150px; height: 100px; margin: 10px;"></div>
+						<div data-id="box2" data-auto-animate-delay="0.1" style="background: #1eff01; width: 150px; height: 100px; margin: 10px;"></div>
+						<div data-id="box3" data-auto-animate-delay="0.2" style="background: #721aff;; width: 150px; height: 100px; margin: 10px;"></div>
+					</div>
+					<p>En JavaScript, puedes trabajar con archivos XML utilizando la API de DOM (Document Object Model) o la API de XMLHTTPREQUEST. Aquí te explicaré cómo trabajar con ambas APIs:</p>
+				</section>
+				<section data-auto-animate data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)">
+					<div class="r-hstack justify-center">
+						<div data-id="box1" data-auto-animate-delay="0" style="background: #1eff01;; width: 150px; height: 100px; margin: 10px;"></div>
+						<div data-id="box2" data-auto-animate-delay="0.1" style="background: #721aff; width: 150px; height: 100px; margin: 10px;"></div>
+						<div data-id="box3" data-auto-animate-delay="0.2" style="background: #1eff01;; width: 150px; height: 100px; margin: 10px;"></div>
+					</div>
+					<br>
+					<ol>
+						<li>API de DOM:</li>
+					</ol>
+					<p>Puedes cargar un archivo XML en JavaScript utilizando el método 'load' del objeto 'XMLHttpRequest'. Luego, puedes acceder a los nodos XML y sus atributos utilizando los métodos y propiedades del objeto DOM. Aquí hay un ejemplo:</p>
+				</section>
+				<section data-auto-animate data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)">
+					<div class="r-hstack justify-center">
+						<div data-id="box1" data-auto-animate-delay="0" style="background: #721aff;; width: 150px; height: 100px; margin: 10px;"></div>
+						<div data-id="box2" data-auto-animate-delay="0.1" style="background: #1eff01; width: 150px; height: 100px; margin: 10px;"></div>
+						<div data-id="box3" data-auto-animate-delay="0.2" style="background: #721aff;; width: 150px; height: 100px; margin: 10px;"></div>
+					</div>
+					<pre data-id="code-animation"><code class="hljs javascript" data-trim data-line-numbers>
+						// Crea una instancia de XMLHttpRequest
+						var xhttp = new XMLHttpRequest();
+
+						// Carga el archivo XML
+						xhttp.open("GET", "archivo.xml", false);
+						xhttp.send();
+
+						// Obtén el documento XML
+						var xmlDoc = xhttp.responseXML;
+
+						// Accede a los nodos y atributos XML
+						var nombre = xmlDoc.getElementsByTagName("nombre")[0].childNodes[0].nodeValue;
+						var edad = xmlDoc.getElementsByTagName("edad")[0].childNodes[0].nodeValue;
+					</code></pre>
+				</section>
+				<section data-auto-animate data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)">
+					<div class="r-hstack justify-center">
+						<div data-id="box1" data-auto-animate-delay="0" style="background: #1eff01;; width: 150px; height: 100px; margin: 10px;"></div>
+						<div data-id="box2" data-auto-animate-delay="0.1" style="background: #721aff; width: 150px; height: 100px; margin: 10px;"></div>
+						<div data-id="box3" data-auto-animate-delay="0.2" style="background: #1eff01;; width: 150px; height: 100px; margin: 10px;"></div>
+					</div>
+					<br>
+					<ol>
+						<li>API de XMLHTTPREQUEST:</li>
+					</ol>
+					<p>Puedes cargar un archivo XML en JavaScript utilizando el método 'load' del objeto 'XMLHttpRequest'. Luego, puedes acceder a los nodos XML y sus atributos utilizando los métodos y propiedades del objeto XML. Aquí hay un ejemplo:</p>
+				</section>
+				<section data-auto-animate data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)">
+					<div class="r-hstack justify-center">
+						<div data-id="box1" data-auto-animate-delay="0" style="background: #721aff;; width: 150px; height: 100px; margin: 10px;"></div>
+						<div data-id="box2" data-auto-animate-delay="0.1" style="background: #1eff01; width: 150px; height: 100px; margin: 10px;"></div>
+						<div data-id="box3" data-auto-animate-delay="0.2" style="background: #721aff;; width: 150px; height: 100px; margin: 10px;"></div>
+					</div>
+					<pre data-id="code-animation"><code class="hljs javascript" data-trim data-line-numbers>
+						// Crea una instancia de XMLHttpRequest
+						var xhttp = new XMLHttpRequest();
+
+						// Carga el archivo XML
+						xhttp.onreadystatechange = function() {
+							if (this.readyState == 4 && this.status == 200) {
+								// Accede a los nodos y atributos XML
+								var xmlDoc = xhttp.responseXML;
+								var nombre = xmlDoc.getElementsByTagName("nombre")[0].childNodes[0].nodeValue;
+								var edad = xmlDoc.getElementsByTagName("edad")[0].childNodes[0].nodeValue;
+							}
+						};
+						xhttp.open("GET", "archivo.xml", true);
+						xhttp.send();
+					</code></pre>
+				</section>
+				<section data-auto-animate data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)">
+					<div class="r-stack">
+						<div data-id="box1" style="background: #721aff;; width: 300px; height: 300px; border-radius: 200px;"></div>
+						<div data-id="box2" style="background: #1eff01; width: 200px; height: 200px; border-radius: 200px;"></div>
+						<div data-id="box3" style="background: #721aff;; width: 100px; height: 100px; border-radius: 200px;"></div>
+					</div>
+					<p style="margin-top: 20px;">Recuerda que para acceder a un archivo XML, debes tenerlo en el servidor o en tu sistema de archivos local y proporcionar la ruta correcta en el método open. Además, debes asegurarte de que el archivo XML esté bien formado y cumpla con las especificaciones de la sintaxis XML.</p>
+				</section>
+				</section>
+
+
+				<section>
+					<section>
+						<h2 style="background-color: #721aff;">Archivos .json en JavaScript</h2>
+					</section>
+					<section>
+						<p>En JavaScript, los archivos .json se utilizan para almacenar datos en formato de objetos JSON (JavaScript Object Notation). Estos archivos son comúnmente utilizados para intercambiar datos entre aplicaciones web y servidores.</p>
+					</section>
+					<section>
+						<br>
+						<p>Para leer un archivo JSON en JavaScript, puedes utilizar la función fetch() para cargar el archivo y la función then() para procesar los datos que se reciben. Por ejemplo:</p>
+						<br>
+						<pre data-id="code-animation"><code class="hljs javascript" data-trim data-line-numbers>
+							fetch('datos.json')
+							.then(function(response) {
+								return response.json();
+							})
+							.then(function(data) {
+								console.log(data);
+							});
+						</code></pre>
+					</section>
+					<section>
+						<br>
+						<p>En este ejemplo, la función fetch() carga el archivo "datos.json". Después, la función then() se encarga de procesar los datos recibidos. En este caso, la respuesta se convierte en un objeto JSON utilizando el método json() y se muestra en la consola utilizando la función console.log().</p>
+					</section>
+					<section>
+						<p>Para escribir un archivo JSON en JavaScript, puedes crear un objeto y luego utilizar la función JSON.stringify() para convertir el objeto en una cadena JSON. Luego, puedes utilizar una función como FileWriter() para escribir el archivo en disco. Por ejemplo:</p>
+						<pre data-id="code-animation"><code class="hljs javascript" data-trim data-line-numbers>
+							let datos = { 
+								nombre: "Juan",
+								edad: 35,
+								profesion: "Desarrollador"
+							};
+
+							let jsonDatos = JSON.stringify(datos);
+
+							// Escribir el archivo
+							let fileWriter = new FileWriter('datos.json');
+							fileWriter.write(jsonDatos);
+						</code></pre>
+					</section>
+					<section>
+						<p>En este ejemplo, se crea un objeto "datos" con tres propiedades. Luego, se convierte el objeto en una cadena JSON utilizando JSON.stringify(). Finalmente, se crea un FileWriter para escribir el archivo en disco.</p>
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h2 style="background-color: #1eff01;">ARCHIVOS PARQUET EN JAVASCRIPT</h2>
+					</section>
+					<section>
+						Parquet es un formato de archivo columnar y de compresión eficiente que se utiliza para el almacenamiento y procesamiento de grandes conjuntos de datos en el ámbito del análisis de datos y big data. Aunque Parquet se originó en el ecosistema Hadoop, actualmente existen varias librerías y herramientas en diferentes lenguajes de programación, incluyendo JavaScript, para trabajar con archivos Parquet.
+					</section>
+					<section>
+						En JavaScript, una de las librerías más populares para trabajar con Parquet es Apache Arrow. Arrow es una plataforma de procesamiento de datos de alto rendimiento y eficiencia que soporta múltiples formatos de archivos, incluyendo Parquet. Arrow proporciona una API para trabajar con archivos Parquet en JavaScript.
+					</section>
+					<section>
+						<br>
+						<p>Para utilizar Apache Arrow en JavaScript y trabajar con archivos Parquet, primero debes instalar la librería usando NPM:</p>
+						<br>
+						<pre data-id="code-animation"><code class="hljs javascript" data-trim data-line-numbers>
+							npm install apache-arrow
+						</code></pre>
+					</section>
+					<section>
+						<br>
+						<p>Una vez instalada, puedes cargar un archivo Parquet en memoria usando la función 'readParquet' de Arrow:</p>
+						<br>
+						<pre data-id="code-animation"><code class="hljs javascript" data-trim data-line-numbers>
+							const arrow = require('apache-arrow');
+							const fs = require('fs');
+
+							fs.readFile('path/to/file.parquet', function(err, data) {
+								arrow.Table.from(data, function(err, table) {
+									// trabajar con la tabla aquí
+								});
+							});
+						</code></pre>
+					</section>
+					<section>
+						El código anterior lee un archivo Parquet desde el disco y lo carga en una tabla de Arrow. A partir de ahí, puedes realizar operaciones de procesamiento y análisis de datos en la tabla utilizando las funciones y herramientas proporcionadas por Arrow. Una vez finalizadas las operaciones, puedes escribir la tabla resultante de vuelta a un archivo Parquet usando la función writeToStream de Arrow:
+					</section>
+					<section>
+						<pre data-id="code-animation"><code class="hljs javascript" data-trim data-line-numbers>
+							const arrow = require('apache-arrow');
+							const fs = require('fs');
+
+							// realizar operaciones en la tabla aquí
+
+							const output = fs.createWriteStream('path/to/output.parquet');
+							table.writeToStream(output, function(err) {
+								// archivo Parquet escrito
+							});
+						</code></pre>
+						<br>
+						<p>El código anterior toma una tabla de Arrow resultante de operaciones de procesamiento y la escribe de vuelta a un archivo Parquet en el disco.</p>
+						<br>
+					</section>
+				</section>
+
+
+
+
+
+
+
+
+
+
+
+
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>
